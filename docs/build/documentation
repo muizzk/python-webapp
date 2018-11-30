@@ -1,0 +1,6 @@
+    Use sphinx
+==================
+
+        .. setting:: INSTALLED_APPS
+
+    ### Text will added here

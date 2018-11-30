@@ -1,0 +1,17 @@
+=======
+Authors
+=======
+
+    .. class:: Author(first_name, last_name, middle_name=None)
+
+        A person who writes code.
+
+        ``first_name`` is ...
+
+        ...
+
+        ``middle_name`` is ...
+
+        .. versionchanged:: A.B
+
+            The ``middle_name`` argument was added.

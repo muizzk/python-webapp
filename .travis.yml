@@ -1,14 +1,16 @@
 language: python
+# PIP is a package manager for Python packages and/or modules.
 cache: pip
 
 python:
   - 3.7.1
   
-install: #- pip install -r ...
+#- pip install -r ...  
+install: 
 
 script: 
   - true
-  
+    
 notifications:
     on_success: change
     on_failure: change  # `always` will be the setting once code changes slow down

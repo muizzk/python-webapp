@@ -1,7 +1,7 @@
-Sphinx 
-======
+Install Sphinx
+==============
 
 Sphinx is used for Django documentation.
 
 install:
-pip3 install sphinx
+pip install sphinx

@@ -1,0 +1,42 @@
+Unit test
+=========
+
+pip install: #Running tests with Tox
+    tox
+
+By default:
+tox -l
+py3
+flake8
+docs
+isort
+
+# Running older versions
+tox -e py35-postgres -- --settings=my_postgres_settings
+
+# Js version
+tox -e javascript
+
+# Only run some of the tests
+# For example, if you’d like to run tests only for generic relations and internationalization.
+./runtests.py --settings=path.to.settings generic_relations i18n
+
+# Running selenium tests
+./runtests.py --selenium=firefox,chrome
+
+Run everything:
+# You need these for the tests
+argon2-cffi 16.1.0+
+bcrypt
+docutils
+geoip2
+jinja2 2.7+
+numpy
+Pillow
+PyYAML
+pytz (required)
+setuptools
+memcached, plus a supported Python binding
+gettext (gettext on Windows)
+selenium
+sqlparse (required)

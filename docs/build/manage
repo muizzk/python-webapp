@@ -1,0 +1,10 @@
+Manage.py
+=========
+
+.. console::
+
+    $ python manage.py shell
+
+.. console::
+
+    $ python manage.py runserver

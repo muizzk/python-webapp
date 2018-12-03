@@ -1,0 +1,10 @@
+Django testing
+============
+
+I'm very new to django testing therefore I wish to use many ways to test.
+
+I will try testing (for now) with .travis.yml and QUnit / perhaps tox.
+
+Most of my commits will be tests. 
+
+Just a heads up.

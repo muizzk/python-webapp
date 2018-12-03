@@ -6,11 +6,21 @@ python:
   - 3.7.1
   
 #- pip install -r ...  
-install: 
-
-script: 
-  - true
-    
+install:
+ - pip install -r requirements.txt
+ 
 notifications:
-    on_success: change
-    on_failure: change  # `always` will be the setting once code changes slow down
+    on_success: always
+    on_failure: always
+ 
+# use manage.py to start a local server
+# before_script:
+
+# command to run tests
+script:
+  - coverage run manage.py test
+   - coverage run functional_tests.py
+  #- "./functional_tests.py"
+ 
+after_script:
+ - coveralls

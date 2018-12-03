@@ -1,7 +1,7 @@
 Django testing
 ============
 
-I'm very new to django testing therefore I wish to use many ways to test.
+I'm very new to django testing therefore I wish to use many ways for testing.
 
 I will try testing (for now) with .travis.yml and QUnit / perhaps tox.
 

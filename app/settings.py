@@ -23,7 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^8!s%prczv8f2sz=_xo6805u32*5x9*sid%sy4t(722(^!ht0@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# In case an error happens, 404 page shows up
+# If DEBUG is True it will show django's issue page
+DEBUG = False
 
 ALLOWED_HOSTS = []
 

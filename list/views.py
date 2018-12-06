@@ -23,7 +23,7 @@ def home(request):
 
 def about(request):
     context = {'name': "Endormi"}
-    return render(request, 'about.html', context)
+    return render(request, 'about.html', context)  
 
 def delete(request, list_id):    
     item = List.objects.get(pk=list_id)

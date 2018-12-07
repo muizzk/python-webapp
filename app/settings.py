@@ -12,6 +12,27 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
+"""A basic database set-up for Travis CI.
+The set-up uses the 'TRAVIS' (== True) environment variable on Travis
+to detect the session, and changes the default database accordingly.
+Be mindful of where you place this code, as you may accidentally
+assign the default database to another configuration later in your code.
+"""
+
+import os
+
+if 'TRAVIS' in os.environ:
+    DATABASES = {
+        'default': {
+            'ENGINE':   'db.sqlite3',
+            'NAME':     'travisci',
+            'USER':     'root',
+            'PASSWORD': '',
+            'HOST':     'localhost',
+            'PORT':     '',
+        }
+    }
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

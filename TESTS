@@ -5,6 +5,12 @@ I'm very new to django testing therefore I wish to use many ways for testing.
 
 I will try testing (for now) with Travis CI and QUnit / perhaps tox.
 
+Using Travis CI:
+    - Create a file called .travis.yml
+
+QUnit Install:
+    - pip install QUnitSuite 
+
 Most of my commits will be tests. 
 
 Just a heads up...

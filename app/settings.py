@@ -19,17 +19,15 @@ Be mindful of where you place this code, as you may accidentally
 assign the default database to another configuration later in your code.
 """
 
-import os
-
 if 'TRAVIS' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE':   'db.sqlite3',
-            'NAME':     'travisci',
-            'USER':     'root',
+            'NAME':     'travis',
+            'USER':     '',
             'PASSWORD': '',
             'HOST':     'localhost',
-            'PORT':     '',
+            'PORT':     ':8000',
         }
     }
 

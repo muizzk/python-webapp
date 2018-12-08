@@ -12,20 +12,9 @@ env:
 install:
  - pip install -r requirements.txt
  
-notifications:
-    on_success: always
-    on_failure: always
-
 services:
   - sqlite3
- 
-# use manage.py to start a local server
-before_script:
-  - sqlite3 -e -u root
 
 # command to run tests
 script:
   - python manage.py test travis
- 
-after_script:
- - coveralls

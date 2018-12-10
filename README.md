@@ -25,7 +25,7 @@ Run the development server:
 python manage.py runserver
 ```
 
-Project will be available at **127.0.0.1:8000** or **localhost:8000**.
+Project will be available at **127.0.0.1:8000** and/or **localhost:8000**.
 
 
 ## License

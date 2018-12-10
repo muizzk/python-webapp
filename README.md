@@ -2,6 +2,7 @@
 
 [![python version](https://img.shields.io/badge/python-3.7.1-brightgreen.svg?style=popout-square)](https://www.python.org/downloads/)
 [![django version](https://img.shields.io/badge/django-2.1.3-brightgreen.svg?style=popout-square)](https://www.djangoproject.com/download/)
+![Follow!](https://img.shields.io/github/followers/endormi.svg?label=Follow&style=social)
 
 Python To-Do List. Very simple. 
 

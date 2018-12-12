@@ -22,12 +22,12 @@ assign the default database to another configuration later in your code.
 if 'TRAVIS' in os.environ:
     DATABASES = {
         'default': {
-            'ENGINE':   'db.sqlite3',
-            'NAME':     'travis',
-            'USER':     '',
+            'ENGINE':   'django.db.backends.sqlite3',
+            'NAME':     'travisci',
+            'USER':     'travis',
             'PASSWORD': '',
             'HOST':     'localhost',
-            'PORT':     ':8000',
+            'PORT':     '',
         }
     }
 

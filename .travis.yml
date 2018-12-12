@@ -10,10 +10,15 @@ env:
 
 #- pip install -r ...  
 install:
+ - pip install -q Django==$DJANGO
  - pip install -r requirements.txt
  
 services:
-  - sqlite3
+  - db.sqlite3
+
+before_script:
+  - sqlite3 -e 'create database travis_ci_db;'
+  - python manage.py syncdb --noinput
 
 # command to run tests
 script:

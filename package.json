@@ -7,9 +7,6 @@
     "doc": "docs",
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/endormi/python-webapp-list.git"
@@ -17,7 +14,9 @@
   "keywords": [
     "python-webapp",
     "django",
-    "framework"
+    "framework",
+    "to-do list",
+    "testing in python"
   ],
   "author": "Endormi (https://github.com/endormi)",
   "license": "MIT",

@@ -24,7 +24,7 @@ if 'TRAVIS' in os.environ:
         'default': {
             'ENGINE':   'django.db.backends.sqlite3',
             'NAME':     'travisci',
-            'USER':     'travis',
+            'USER':     '',
             'PASSWORD': '',
             'HOST':     'localhost',
             'PORT':     '',

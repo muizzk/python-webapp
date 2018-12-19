@@ -1,5 +1,6 @@
 # Python Web Application
 
+[![Travis Build](https://img.shields.io/travis/endormi/python-webapp-list.svg?style=flat-square)](https://travis-ci.org/endormi/python-webapp-list)
 [![python version](https://img.shields.io/badge/python-3.7.1-brightgreen.svg?style=popout-square)](https://www.python.org/downloads/)
 [![django version](https://img.shields.io/badge/django-2.1.3-brightgreen.svg?style=popout-square)](https://www.djangoproject.com/download/)
 

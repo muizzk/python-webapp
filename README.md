@@ -5,7 +5,7 @@
 
 [Badges](https://shields.io/#/)
 
-Python To-Do List. Very simple. 
+> Python To-Do List. Very simple. 
 
 ## Running the Project Locally
 
@@ -28,6 +28,10 @@ python manage.py runserver
 ```
 
 Project will be available at **127.0.0.1:8000** and/or **localhost:8000**.
+
+### Testing
+
+Click [here](https://github.com/endormi/python-webapp-list/blob/master/TESTS) to see what I use for testing.
 
 ### Running .travis.yml test
 

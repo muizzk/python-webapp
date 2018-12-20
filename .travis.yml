@@ -10,11 +10,7 @@ env:
 
 dist:
   - xenial
-
-#- pip install -r ...  
-install:
- - pip install -r requirements.txt
- 
+  
 services:
   - db.sqlite3
 

@@ -2,19 +2,20 @@ Django testing
 ============
 
 I'm very new to django testing therefore I wish to use many ways for testing.
+This isn't advisable in any way, but like I said I wish to learn the ways to test django.
 
 I will try testing (for now) with Travis CI and tox  / perhaps QUnit.
 
 Using Travis CI:
     - Create a file called .travis.yml
     - Add Travis CI to settings.py 
-    
-QUnit Install:
-    - pip install QUnitSuite 
 
 Tox install:
     - pip install tox
     - create files tox.ini and pyproject.toml
+    
+QUnit Install:
+    - pip install QUnitSuite 
 
 Most of my commits will be tests. 
 

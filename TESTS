@@ -12,6 +12,10 @@ Using Travis CI:
 QUnit Install:
     - pip install QUnitSuite 
 
+Tox install:
+    - pip install tox
+    - create files tox.ini and pyproject.toml
+
 Most of my commits will be tests. 
 
 Just a heads up...

@@ -15,7 +15,7 @@ services:
   - db.sqlite3
 
 before_script:
-  - sqlite3 -e 'create database travis_ci_db;'
+  - sqlite3 travis_ci_db # creates a new database called `travis_ci_db`
   - python manage.py syncdb
 
 # command to run tests

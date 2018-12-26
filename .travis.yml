@@ -15,7 +15,7 @@ services:
   - db.sqlite3
 
 before_script:
-  - sqlite3 -e 'create database travis_ci_db;'
+  - touch travis_ci_db # creates a new file called `travis_ci_db`. SQLite databases can be created as simple flat files
   - python manage.py syncdb
 
 # command to run tests

@@ -30,6 +30,16 @@ python manage.py runserver
 
 Project will be available at **127.0.0.1:8000**
 
+### Local Users
+
+Creating a local [user](https://github.com/endormi/python-webapp/blob/master/USERS):
+
+```
+python manage.py createsuperuser
+```
+
+Test user at **127.0.0.1:8000/admin**
+
 ### Testing
 
 Click [here](https://github.com/endormi/python-webapp-list/blob/master/TESTS) to see what I use for testing.

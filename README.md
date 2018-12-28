@@ -47,7 +47,7 @@ Click [here](https://github.com/endormi/python-webapp-list/blob/master/TESTS) to
 ### Running .travis.yml test
 
 ```
-python manage.py test travis
+python manage.py test
 ```
 
 ## License

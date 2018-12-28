@@ -16,7 +16,7 @@ services:
 
 before_script:
   - touch travis_ci_db # creates a flat file you can use for your SQLite DB
-  - python manage.py syncdb
+  - python manage.py migrate
 
 # command to run tests
 script:

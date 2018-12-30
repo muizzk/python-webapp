@@ -28,7 +28,17 @@ Run the development server:
 python manage.py runserver
 ```
 
-Project will be available at **127.0.0.1:8000** and/or **localhost:8000**.
+Project will be available at **127.0.0.1:8000**
+
+### Local Users
+
+Creating a local [user](https://github.com/endormi/python-webapp/blob/master/USERS):
+
+```
+python manage.py createsuperuser
+```
+
+Test user at **127.0.0.1:8000/admin**
 
 ### Testing
 
@@ -37,7 +47,7 @@ Click [here](https://github.com/endormi/python-webapp-list/blob/master/TESTS) to
 ### Running .travis.yml test
 
 ```
-python manage.py test travis
+python manage.py test
 ```
 
 ## License

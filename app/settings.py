@@ -23,11 +23,10 @@ if 'TRAVIS' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE':   'django.db.backends.sqlite3',
-            'NAME':     'travisci',
+            'NAME':     'travis_ci_db',
             'USER':     '',
             'PASSWORD': '',
-            'HOST':     'localhost',
-            'PORT':     '',
+            'HOST':     '127.0.0.1',
         }
     }
 
